@@ -1,0 +1,294 @@
+body{
+    margin: 0px;
+}
+
+/* Header */
+.movie-header{
+    position: fixed;
+    
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+
+.div-logo{
+    height: 100%;
+    /* text-align: center; */
+    margin-top: 10px;
+    float: left;
+}
+
+.image1{
+    height: 100%;
+}
+
+
+
+.movie-nav{
+    float: right;
+    height: 100%;
+   
+    
+}
+
+.movie-nav a{
+    color: rgb(88, 90, 233);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-top: 40%;
+    text-decoration: none;
+
+    float: right;
+    
+   
+
+}
+.movie-nav a:hover{
+
+    color: rgb(148, 30, 226);
+
+}
+
+.sec{
+    float: right;
+    height: 100%;
+
+ 
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+    /* text-decoration: none; */
+}
+.sec a {
+    text-decoration: none;
+    color: rgb(88, 90, 233);
+}
+
+/* Body */
+.body-content{
+    background-color: rgb(247, 247, 247);
+    height: 650px;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.search{
+    text-align: center;
+    
+}
+
+.search-text input{
+    width: 70%;
+    text-align: center;
+    /* display: inline-block; */
+}
+
+#submit{
+    /* display: block; */
+    /* text-align: center; */
+    width: 80%;
+    margin-left: 8.8%;
+}
+.btn1{
+    /* display: inline-block; */
+    float: right;
+}
+
+/* .content{
+    color: black;
+} */
+ 
+
+
+/* display  */
+.loading{
+    /* width: 70px; */
+    text-align: center;
+    margin: 70px auto;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    /* background-color: white; */
+    border-radius: 50%;
+}
+
+.dot1{
+    background-color: black;
+    animation: jump 0.6s 0.1s linear infinite ;
+}
+.dot2{
+    background-color: black;
+    animation: jump 0.6s 0.2s linear infinite ;
+}
+.dot3{
+    background-color: black;
+    animation: jump 0.6s 0.3s linear infinite ;
+}
+
+@keyframes jump{
+  50%{
+      transform: translate(0,15px) ;
+  }
+}
+
+.test{
+    width: 100%;
+}
+
+.movie-card{
+    width: 21%;
+    padding: 1.5%;
+    /* height: 300px; */
+    float: left;
+    text-align: center;
+    height: 500px;
+    border: 2px solid red;
+}
+.movie-card img{
+    width: 100%;
+    height: 300px;
+}
+
+
+.movie-card span{
+    background-color: wheat;
+    border: 1px white solid;
+     font-family: Arial, Helvetica, sans-serif;
+     list-style: none;
+     display: block;
+     
+    
+}
+.movie-card a{
+        text-decoration: none;
+       color: black;
+       background-color: chocolate;
+       border: 2px solid black;
+       
+       
+      
+    }
+
+
+
+
+.para{
+  /* width: 100%; */
+    /* height: 100px; */
+    text-align: center;
+    
+
+}
+.pages{
+    width: 100%;
+    text-align: center;
+    
+   
+}
+.pages select{
+ width: 80%;
+ /* text-align: center; */
+ /* padding-left: 30%; */
+ /* justify-content: center; */
+ /* margin: auto; */
+}
+
+/* Movie html */
+
+.movie-background{
+    background-color:rgba(0, 0, 0, 0.877);
+    text-align: center;
+}
+
+.movie-post{
+    margin-left: 10%;
+    background-color: rgb(241, 245, 255);
+    width: 80%;
+    border: 2px black solid;
+    text-align: center;
+    
+}
+.movie-post img{
+    width: 100%;
+   height: 500px;
+   
+    
+}
+
+.movie-post span{
+    text-align: left;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px white solid;
+}
+
+.error-card{
+    width: 100%;
+}
+.error-card img{
+    width: 100%;
+}
+
+.error-text{
+    width: 100%;
+    height: 20px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width:411px) {
+    
+    
+    
+    
+    
+    .movie-nav{
+        float:left;
+  
+    }
+    
+    .movie-nav a{
+  
+        font-size: 15px;
+        float: left;
+  
+    }
+  
+    .sec{
+      
+        float: left;
+    }
+    
+  
+    .logo img{
+        width: 90%;
+    }
+    .movie-card{
+        width: 20%;
+     
+        height: 500px;
+  
+    }
+    
+   
+    
+  
+    .movie-card a{
+            text-decoration: none;
+           color: black;
+           background-color: chocolate;
+           border: 2px solid black;
+           float: left;
+          
+        }
+    
+
+
+}
